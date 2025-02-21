@@ -1,0 +1,36 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "key":
+  {
+    "P":
+    {
+      "item":"mekanism:pellet_polonium"
+    },
+    "R":
+    {
+      "item":"mekanism:pellet_plutonium"
+    },
+    "B":
+    {
+      "item":"mekanism:steel_casing"
+    },
+    "C":
+    {
+      "item":"mekanism:basic_induction_cell"
+    },
+    "A":
+    {
+      "tag":"forge:circuits/ultimate"
+    }
+  },
+  "pattern":
+  [
+    "PCP",
+    "ABA",
+    "PRP"
+  ],
+  "result":
+  {
+    "item":"mekanismmoremachine:energy_catalyst_machine"
+  }
+}

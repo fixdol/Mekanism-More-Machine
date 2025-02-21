@@ -1,0 +1,11 @@
+{
+  "type":"mekanism:energy_conversion",
+  "input":
+  {
+    "ingredient":
+    {
+      "item":"mekanismmoremachine:crystal_energy"
+    }
+  },
+  "output":5400000
+}

@@ -1,0 +1,14 @@
+{
+  "type":"minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item":"mekanismmoremachine:crystal_energy"
+    }
+  ],
+  "result":
+  {
+    "count":9,
+    "item":"mekanismmoremachine:shard_energy"
+  }
+}

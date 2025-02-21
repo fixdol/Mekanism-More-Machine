@@ -1,0 +1,11 @@
+{
+  "type":"mekanism:energy_conversion",
+  "input":
+  {
+    "ingredient":
+    {
+      "item":"mekanismmoremachine:shard_energy"
+    }
+  },
+  "output":600000
+}

@@ -1,0 +1,15 @@
+{
+  "type":"mekanismmoremachine:energy_catalyst",
+  "energyRequired":900,
+  "input":
+  {
+    "ingredient":
+    {
+      "tag":"mekanism:shards/lead"
+    }
+  },
+  "output":
+  {
+    "item":"mekanismmoremachine:shard_energy"
+  }
+}

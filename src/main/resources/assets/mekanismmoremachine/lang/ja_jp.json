@@ -1,0 +1,8 @@
+{
+  "block.mekanismmoremachine.energy_catalyst_machine": "熱力学的複製装置",
+  "constants.mekanismmoremachine.mod_name": "Mekanism: More Machine",
+  "container.mekanismmoremachine.energy_catalyst_machine": "熱力学的複製装置",
+  "description.mekanismmoremachine.energy_catalyst_machine": "エネルギーと物質の保存則を利用し、対象を分子レベルで再現できます。",
+  "item.mekanismmoremachine.shard_energy": "エネルギーの欠片",
+  "item.mekanismmoremachine.crystal_energy": "エネルギーの結晶"
+}

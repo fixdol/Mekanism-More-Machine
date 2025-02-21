@@ -1,0 +1,20 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "key":
+  {
+    "#":
+    {
+      "item":"mekanismmoremachine:shard_energy"
+    }
+  },
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+  "result":
+  {
+    "item":"mekanismmoremachine:crystal_energy"
+  }
+}
