@@ -1,23 +1,43 @@
+
 {
   "variants":
   {
-    "facing=north":
+    "facing=north,active=false":
     {
       "model":"mekanismmoremachine:block/energy_catalyst_machine"
     },
-    "facing=south":
+    "facing=south,active=false":
     {
       "model":"mekanismmoremachine:block/energy_catalyst_machine",
       "y":180
     },
-    "facing=east":
+    "facing=east,active=false":
     {
       "model":"mekanismmoremachine:block/energy_catalyst_machine",
       "y":90
     },
-    "facing=west":
+    "facing=west,active=false":
     {
       "model":"mekanismmoremachine:block/energy_catalyst_machine",
+      "y":-90
+    },
+    "facing=north,active=true":
+    {
+      "model":"mekanismmoremachine:block/energy_catalyst_machine_active"
+    },
+    "facing=south,active=true":
+    {
+      "model":"mekanismmoremachine:block/energy_catalyst_machine_active",
+      "y":180
+    },
+    "facing=east,active=true":
+    {
+      "model":"mekanismmoremachine:block/energy_catalyst_machine_active",
+      "y":90
+    },
+    "facing=west,active=true":
+    {
+      "model":"mekanismmoremachine:block/energy_catalyst_machine_active",
       "y":-90
     }
   }

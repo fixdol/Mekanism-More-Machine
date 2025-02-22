@@ -1,12 +1,14 @@
 {
 	"credit": "Made with Blockbench",
+	"parent":"block/cube_all",
 	"textures": {
-		"0": "ports_led",
+		"0": "mekanism:block/models/ports_led",
 		"2": "mekanismmoremachine:block/energy_catalyst_machine",
-		"3": "mekanismmoremachine:block/window",
-		"4": "ports",
-		"particle": "ports_led"
+		"3": "mekanismmoremachine:block/window_active",
+		"4": "mekanism:block/models/ports",
+		"particle": "mekanism:block/sps_casing"
 	},
+	"render_type":"minecraft:cutout",
 	"elements": [
 		{
 			"from": [0, 13, 12],
@@ -396,6 +398,10 @@
 				"west": {"uv": [8, 0, 16, 8], "texture": "#4"},
 				"up": {"uv": [8, 0, 16, 8], "texture": "#4"},
 				"down": {"uv": [8, 0, 16, 8], "texture": "#4"}
+			},
+			"forge_data": {
+				"block_light":15,
+				"sky_light":15
 			}
 		},
 		{
@@ -410,6 +416,10 @@
 				"west": {"uv": [0, 0, 0, 8], "texture": "#missing"},
 				"up": {"uv": [0, 0, 8, 0], "texture": "#missing"},
 				"down": {"uv": [0, 0, 8, 0], "texture": "#missing"}
+			},
+			"forge_data": {
+				"block_light":15,
+				"sky_light":15
 			}
 		},
 		{
@@ -417,9 +427,9 @@
 			"to": [14, 12, 0],
 			"rotation": {"angle": 0, "axis": "y", "origin": [2, 4, 0]},
 			"faces": {
-				"north": {"uv": [0, 0, 12, 8], "texture": "#3"},
+				"north": {"uv": [2, 4, 14, 12], "texture": "#3"},
 				"east": {"uv": [0, 0, 0, 8], "texture": "#3"},
-				"south": {"uv": [0, 8, 12, 16], "texture": "#3"},
+				"south": {"uv": [2, 4, 14, 12], "texture": "#3"},
 				"west": {"uv": [0, 0, 0, 8], "texture": "#3"},
 				"up": {"uv": [12, 0, 0, 0], "texture": "#3"},
 				"down": {"uv": [12, 0, 0, 0], "texture": "#3"}
